@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nilesh.studentmanagementsystem.MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Roll No"
+        tools:layout_editor_absoluteY="73dp"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteY="132dp"
+        android:hint="Marks"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="111dp"
+        android:layout_height="68dp"
+        android:text="Add"
+        tools:layout_editor_absoluteY="209dp"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="98dp"
+        android:layout_height="69dp"
+        android:text="Modify"
+        tools:layout_editor_absoluteY="209dp"
+        tools:layout_editor_absoluteX="224dp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="97dp"
+        android:layout_height="61dp"
+        android:text="View"
+        tools:layout_editor_absoluteY="296dp"
+        tools:layout_editor_absoluteX="225dp" />
+
+    <Button
+        android:id="@+id/viewall"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:text="View all"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:text="Show"
+        tools:layout_editor_absoluteY="382dp"
+        tools:layout_editor_absoluteX="224dp" />
+
+
+</android.support.constraint.ConstraintLayout>
